@@ -14,14 +14,7 @@
     position: absolute;
     width: 1535px;
     height: 1795px;
-    padding-right: 140px;
-}
-
-.right-side {
-    position: absolute;
-    width: 802px;
-    height: 1795px;
-    left: 1533px;
+    /* padding-right: 140px; */
 }
 
 .header {
@@ -35,6 +28,10 @@
     width: 243px;
     height: 43px;
     margin-right: 800px;
+
+    font-size: 36px;
+    line-height: 42px;
+    color: #243D6F;
 }
 
 .search-icon {
@@ -60,6 +57,10 @@
     display: flex;
     flex-flow: column;
 
+    font-size: 26px;
+    line-height: 30px;
+    color: #A4B0C3;
+
 }
 
 div.time div:not(last-child) {
@@ -73,6 +74,10 @@ div.time div:not(last-child) {
     border-left: 6px solid rgba(133, 118, 237, 1);
     background: rgba(133, 118, 237, 0.15);
     padding: 50px 61px;
+
+    font-size: 28px;
+    line-height: 33px;
+    color: #243D6F;
 }
 
 .blue-bloc {
@@ -85,6 +90,10 @@ div.time div:not(last-child) {
     background: rgba(61, 131, 249, 0.15);  
     padding: 135px 61px 140px 61px;
     margin-top: 90px;
+
+    font-size: 28px;
+    line-height: 33px;
+    color: #243D6F;
 }
 .orange-bloc {
     position: absolute;
@@ -96,4 +105,178 @@ div.time div:not(last-child) {
     background: rgba(238, 165, 124, 0.15); 
     padding: 120px 61px 110px 61px;
     margin-top: 95px;
+
+    font-size: 28px;
+    line-height: 33px;
+    color: #243D6F;
+}
+
+/** Calendar **/
+
+.right-side {
+    position: absolute;
+    width: 802px;
+    height: 1795px;
+    left: 1533px;
+
+    background: rgba(42, 46, 65, 0.7);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #FFFFFF;
+}
+
+/* .calendar-right { }*/
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.line-right {
+    position: absolute;
+    width: 599px;
+    height: 2px;
+    left: 100px;
+    margin-top: 55px;
+
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.17;  
+}
+
+.days {
+    position: absolute;
+    top: 261px;
+    left: 90px;
+    width: 802px;
+    height: 124px;
+    display: flex;
+    text-align: center;
+    
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+div.days div {
+    width: 86px;
+    height: 34px;
+}
+
+div.days div:not(last-child) {
+    padding-right: 5px;
+}
+
+.week-one {
+    position: absolute;
+    top: 361px;
+    left: 90px;
+    width: 802px;
+    height: 124px;
+    display: flex;
+    text-align: center;
+}
+
+div.week-one div {
+    width: 86px;
+    height: 34px;
+}
+
+div.week-one div:not(last-child) {
+    padding-right: 5px;
+}
+
+.week-two {
+    position: absolute;
+    width: 802px;
+    height: 124px;
+    display: flex;
+    top: 461px;
+    left: 90px;
+    text-align: center;
+}
+
+div.week-two div {
+    width: 86px;
+    height: 34px;
+}
+
+div.week-two div:not(last-child) {
+    padding-right: 5px;
+}
+
+.week-three {
+    position: absolute;
+    display: flex;
+    width: 802px;
+    height: 124px;
+    top: 561px;
+    left: 90px;
+    text-align: center;
+}
+
+div.week-three div {
+    width: 86px;
+    height: 34px;
+}
+
+div.week-three div:not(last-child) {
+    padding-right: 5px;
+}
+
+.week-four {
+    position: absolute;
+    display: flex;
+    width: 802px;
+    height: 124px;
+    top: 661px;
+    left: 90px;
+    text-align: center;
+}
+
+div.week-four div {
+    width: 86px;
+    height: 34px;
+}
+
+div.week-four div:not(last-child) {
+    padding-right: 5px;
+}
+
+.week-five {
+    position: absolute;
+    display: flex;
+    width: 802px;
+    height: 124px;
+    top: 761px;
+    left: 90px;
+    text-align: center;
+}
+
+div.week-five div {
+    width: 86px;
+    height: 34px;
+}
+
+div.week-five div:not(last-child) {
+    padding-right: 5px;
+}
+
+.line-right-buttom {
+    position: absolute;
+    width: 599px;
+    height: 2px;
+    left: 100px;
+    margin-top: 755px;
+
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.17;  
+}
+
+.categories {
+    position: absolute;
+    top: 950px;
 }
