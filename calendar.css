@@ -1,3 +1,99 @@
+:root {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.container {
+    padding-left: 142px;
+}
+
+.left-side {
+    position: absolute;
+    width: 1535px;
+    height: 1795px;
+    padding-right: 140px;
+}
+
 .right-side {
-    
+    position: absolute;
+    width: 802px;
+    height: 1795px;
+    left: 1533px;
+}
+
+.header {
+    height: 133px;
+    margin-top: 83px;
+    margin-bottom: 90px;
+    display: flex;
+}
+
+.data {
+    width: 243px;
+    height: 43px;
+    margin-right: 800px;
+}
+
+.search-icon {
+    margin-left: 70px;
+    margin-right: 55px;
+}
+
+.layot-icon {
+    margin-right: 158px;
+}
+
+.line {
+    position: absolute;
+    top: 180px;
+    width: 1255px;
+    height: 2px;
+    background: #F3F3F3;
+}
+
+.time {
+    position: absolute;
+    height: 1381px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+div.time div:not(last-child) {
+    padding-bottom: 91px;
+}
+
+.violet-bloc {
+    position: absolute;
+    left: 275px;
+    width: 850px;
+    border-left: 6px solid rgba(133, 118, 237, 1);
+    background: rgba(133, 118, 237, 0.15);
+    padding: 50px 61px;
+}
+
+.blue-bloc {
+    position: absolute;
+    left: 275px;
+    top: 460px;
+    width: 850px;
+    /* height: 309px; */
+    border-left: 6px solid rgba(61, 131, 249, 1);
+    background: rgba(61, 131, 249, 0.15);  
+    padding: 135px 61px 140px 61px;
+    margin-top: 90px;
+}
+.orange-bloc {
+    position: absolute;
+    left: 275px;
+    top: 940px;
+    width: 850px;
+    /* height: 245px; */
+    border-left: 6px solid rgba(238, 165, 124, 1);
+    background: rgba(238, 165, 124, 0.15); 
+    padding: 120px 61px 110px 61px;
+    margin-top: 95px;
 }
